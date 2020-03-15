@@ -1,0 +1,24 @@
+{
+  "name": "nativescript-dynatrace-gradle-plugin",
+  "version": "1.0.3",
+  "description": "NativeScript Plugin wrapper for Dynatrace Gradle",
+  "repository": {
+    "url": "https://github.com/var/nativescript-dynatrace-gradle-plugin"
+  },
+  "nativescript": {
+    "platforms": {
+      "android": "6.0.0"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nativescript",
+    "dynatrace",
+    "gradle",
+    "android"
+  ],
+  "author": "Vimal Atreya Ramaka",
+  "license": "ISC"
+}

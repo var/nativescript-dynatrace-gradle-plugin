@@ -1,0 +1,15 @@
+dependencies {
+    implementation 'com.dynatrace.tools.android:gradle-plugin:8.+'
+}
+
+apply plugin: 'com.dynatrace.instrumentation'
+dynatrace {
+	configurations {
+		sampleConfig {
+			autoStart {
+				applicationId dynatraceApplicationId
+				beaconUrl dynatraceBeaconUrl
+			}
+		}
+	}
+}
