@@ -4,12 +4,8 @@ dependencies {
 
 apply plugin: 'com.dynatrace.instrumentation'
 dynatrace {
-	configurations {
-		sampleConfig {
-			autoStart {
-				applicationId DTXApplicationID
-				beaconUrl DTXBeaconUrl
-			}
-		}
+	defaultConfig {
+		applicationId DTXApplicationID
+        beaconUrl DTXBeaconUrl
 	}
 }
