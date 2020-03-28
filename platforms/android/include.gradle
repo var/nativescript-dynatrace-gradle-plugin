@@ -7,8 +7,8 @@ dynatrace {
 	configurations {
 		sampleConfig {
 			autoStart {
-				applicationId dynatraceApplicationId
-				beaconUrl dynatraceBeaconUrl
+				applicationId DTXApplicationID
+				beaconUrl DTXBeaconUrl
 			}
 		}
 	}
